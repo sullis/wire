@@ -12,7 +12,8 @@ kotlin {
         metaInfo = true
       }
     }
-    nodejs()
+    // TODO(egorand): Re-enable JS tests once https://youtrack.jetbrains.com/issue/KT-28927 is fixed
+    // nodejs()
   }
   iosX64()
   iosArm64()
