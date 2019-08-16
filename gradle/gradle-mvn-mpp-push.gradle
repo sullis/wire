@@ -135,9 +135,5 @@ publishing {
         password getRepositoryPassword()
       }
     }
-    maven {
-      name 'test'
-      url "file://${rootProject.buildDir}/localMaven"
-    }
   }
 }
