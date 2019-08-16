@@ -9,7 +9,7 @@ import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.SendChannel
 
-interface RouteGuide : Service {
+interface RouteGuideClient : Service {
   @WireRpc(
     path = "/routeguide.RouteGuide/GetFeature",
     requestAdapter = "routeguide.Point#ADAPTER",
